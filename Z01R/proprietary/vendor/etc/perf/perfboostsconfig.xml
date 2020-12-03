@@ -66,8 +66,8 @@
         <!-- Type="1", Vertical Scroll boost -->
         <Config
             Id="0x00001080" Type="1" Enable="true" Target="sdm845"
-            Resources="0X42814000, 3000, 0x43000000, 0x39, 0x40800000, 1200, 0x40800100, 1200,
-                       0x40C00000, 0x1,  0x43400000, 0x3F40, 0X42804000, 4" />
+            Resources="0x43000000, 0x19, 0x40800000, 1000, 0x40800100, 1000, 0x40C00000, 0x2,
+                       0x43400000, 0x1F40, 0X42804000, 0" />
 
     <!--Prefling Scroll boost-->
         <!-- LLCBW_MIN_FREQ resource opcode, value-->
@@ -79,8 +79,8 @@
         <!-- Type="4", Prefling boost -->
         <Config
             Id="0x00001080" Type="4" Enable="true" Timeout="80" Target="sdm845"
-            Resources="0X42814000, 3000, 0x43000000, 0x39, 0x40800000, 1200, 0x40800100, 1200,
-                       0x40C00000, 0x1,  0x43400000, 0x3F40, 0X42804000, 4" />
+            Resources="0x43000000, 0x19, 0x40800000, 1000, 0x40800100, 1000, 0x40C00000, 0x2,
+                       0x43400000, 0x1F40, 0X42804000, 0" />
 
     <!--Horizontal Scroll boost-->
         <!-- SCHEDBOOST resource opcode, value-->
@@ -88,8 +88,7 @@
         <!-- Type="2", Horizontal Scroll boost -->
         <Config
             Id="0x00001080" Type="2" Enable="true" Target="sdm845"
-            Resources="0X42814000, 3000, 0x43000000, 0x39, 0x40800000, 1200, 0x40800100, 1200,
-                       0x40C00000, 0x1,  0x43400000, 0x3F40, 0X42804000, 4" />
+            Resources="0x40C00000, 0x2, 0X42804000, 0" />
 
     <!--Drag boost-->
         <!-- LLCBW_MIN_FREQ resource opcode, value-->
@@ -101,8 +100,8 @@
         <!-- Type="1", Drag boost -->
         <Config
             Id="0x00001087" Type="1" Enable="true" Timeout="0" Target="sdm845"
-            Resources="0X42814000, 3000, 0x43000000, 0x39, 0x40800000, 1200, 0x40800100, 1200,
-                       0x40C00000, 0x1,  0x43400000, 0x3F40, 0X42804000, 4" />
+            Resources="0x43000000, 0x11, 0x40800000, 1000, 0x40800100, 1000, 0x40C00000, 0x2,
+                       0x43400000, 0x1F40, 0X42804000, 0" />
 
     <!--PackageInstall boost-->
         <!-- SCHEDBOOST resource opcode, value-->
